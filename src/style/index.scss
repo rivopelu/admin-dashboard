@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+$main-first : rgb(231, 31, 114);
+$transparent-main : rgba(231, 31, 114, 0.5);
+
+
+
+
+@import './components/sidebar.scss';

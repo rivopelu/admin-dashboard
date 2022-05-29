@@ -1,0 +1,20 @@
+.sidebar {
+
+
+    .navlist {
+
+        .navlink {
+            border: 1px solid transparent;
+
+            &:hover {
+                background-color: $main-first;
+            }
+        }
+
+        .active {
+
+            border: 1px solid $transparent-main ;
+            box-shadow: 0 0 30px 3px rgba(231, 31, 114, 0.527);
+        }
+    }
+}
